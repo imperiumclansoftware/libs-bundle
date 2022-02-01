@@ -1,0 +1,20 @@
+{
+    "name": "ics/libs-bundle",
+    "description": "A new bundle for symfony",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "ICS\\LibsBundle\\": "/src"
+        }
+    },
+    "require": {
+        "symfony/config": "^5",
+        "symfony/framework-bundle": "^5",
+        "symfony/dependency-injection": "^5",
+        "symfony/routing": "^5",
+        "symfony/form": "^5",
+        "doctrine/orm": "^2.8"
+    }
+}

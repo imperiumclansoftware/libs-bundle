@@ -1,0 +1,20 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+    # Chargement des services
+    ICS\LibsBundle\Controller\:
+        resource: "../src/Controller"
+        tags: ['controller.services_arguments']
+    ICS\LibsBundle\Service\:
+        resource: "../src/Service"
+        tags: ['controller.services_arguments']
+    ICS\LibsBundle\Command\:
+        resource: "../src/Command"
+        tags: ['controller.services_arguments']
+    ICS\LibsBundle\Twig\:
+        resource: "../src/Twig"
+        tags: ['controller.services_arguments']
+    ICS\LibsBundle\Form\:
+        resource: "../src/Form"
+        tags: ['controller.services_arguments']
