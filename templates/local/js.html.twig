@@ -1,0 +1,8 @@
+{% if config.jquery %}
+    <script src="{{ asset('bundles/libs/local/jquery/jquery-3.6.0.min.js') }}"></script>
+{% endif %}
+{% if config.bootstrap %}
+    <script src="{{ asset('bundles/libs/local/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+    <script> var updateThemeUrl = '{{ path('ics-libs-select-theme') }}';</script> 
+    <script src="{{ asset('bundles/libs/js/selectedThemes.js') }}"></script>
+{% endif %}

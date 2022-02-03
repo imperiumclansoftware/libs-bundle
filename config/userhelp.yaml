@@ -1,0 +1,9 @@
+userhelp:
+  introButtonIdentifier: introButton
+  introTheme: modern
+  intros:
+    homepage: #Route name
+      elements:
+        themeButton: #Element where intro step attach
+          title: Button Theme
+          description: You can change theme color and fonts with select a template in list. <i class="fas fa-sun"></i> is for light themes. <i class="fas fa-moon"></i> is for dark themes.

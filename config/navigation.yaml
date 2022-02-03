@@ -1,0 +1,18 @@
+navigation:
+  navbars:
+    main:
+      tools:
+        themeButton:
+          icon: fas fa-palette
+          attrs:
+            id: 'themeButton'
+            title: 'Choose your template'
+          childs:
+            default:
+              icon: fas fa-sun
+              lib: 'Default theme'
+              url: '#'
+              attrs:
+                data-theme-select: 'default'
+                data-theme: 'select'
+              order: 1

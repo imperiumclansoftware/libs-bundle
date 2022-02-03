@@ -1,0 +1,8 @@
+{% autoescape false %}
+	{% for font in fonts %}
+		<link href="{{ path('ics-fonts-css',{ font: font }) }}" rel="stylesheet" />
+	{% endfor %}
+	{% if themePath %}
+		<link href="{{ asset(themePath) }}" rel="stylesheet"/>
+	{% endif %}
+{% endautoescape %}

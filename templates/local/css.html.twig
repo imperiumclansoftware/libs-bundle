@@ -1,0 +1,7 @@
+{% if config.bootstrap %}
+    <link href="{{ asset('bundles/libs/local/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet" />
+{% endif %}
+{{ renderBootstrapTheme() }}
+{% if config.fontawesome %}
+    <link href="{{ asset('bundles/libs/local/font-awesome/css/all.min.css') }}" rel="stylesheet" />
+{% endif %}
